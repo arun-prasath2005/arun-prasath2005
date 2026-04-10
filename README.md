@@ -4,7 +4,7 @@
 
 20+ years. 7 exits. 50+ projects and 5,500+ contributions in the last 12 months -- across trading systems, AI agents, SaaS platforms, and security products, built and shipped in parallel.
 
-Anyone can generate code today. A realtor can spin up a Next.js app with AI. What they can't do is architect systems that survive production -- enforce security at the boundary layer, design feedback loops that catch regressions before they ship, or make the architectural decisions that separate a prototype from an enterprise product. That takes 20 years of building systems where failure has real consequences.
+Anyone can generate code today. A teenager with a laptop can spin up a Next.js app with AI. What they can't do is architect systems that survive production -- enforce security at the boundary layer, design feedback loops that catch regressions before they ship, or make the architectural decisions that separate a prototype from an enterprise product. That takes 20 years of building systems where failure has real consequences.
 
 I build companies, not just code. Every exit was built the same way -- a lean team, end-to-end ownership, and the refusal to outsource anything critical. I've been the one writing the trading engine, deploying the infrastructure, acquiring the customers, and debugging production at 3am.
 
@@ -33,6 +33,8 @@ This is the core of my work right now.
 **Multi-Agent Architectures** — Production systems where a primary agent spawns parallel sub-agents for concurrent research, each returning structured findings that get synthesized into unified analysis. Claude Agent SDK, MCP servers, tool-use pipelines, and real-time WebSocket streaming. Agents that coordinate, not just respond.
 
 **AI Safety Infrastructure** — Production microservices for prompt injection detection, hallucination validation, and stuck-loop detection (repeater, oscillator, wanderer patterns). Pay-per-call with on-chain micropayments. If you're deploying agents in production, you need guardrails that are as autonomous as the agents themselves.
+
+**Small Model Selection & Fine-Tuning** — Anyone can throw a problem at Opus or Gemini Pro. The real skill is knowing when a fine-tuned 3B parameter model outperforms a 400B one -- at 1/100th the cost and 50x the speed. I select the smallest viable model for each task, fine-tune it with domain-specific data, and build evaluation pipelines that prove it works. This is how you deploy AI in production at scale without burning your margins on API calls.
 
 **DSPy & Conversational AI** — Learnable graph architectures with goal-oriented conversation management, engagement detection, and structured data collection through natural dialogue. Not prompt templates -- optimizable modules with MLflow tracking and training data.
 
