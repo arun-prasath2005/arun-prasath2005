@@ -28,7 +28,7 @@ This is the core of my work right now.
 
 **Agent Orchestration Frameworks** — Desktop applications and CLI tooling that turn LLMs into autonomous software engineers. Planning mode, build mode, real-time monitoring, tree-sitter AST analysis for codebase understanding, and loop engines that run agents end-to-end with automatic commit/test/iterate cycles. Not wrappers around an API -- full orchestration systems with crash recovery, backpressure, and token tracking.
 
-**Self-Improving Audit Pipelines** — Genetic-Evolutionary Prompt Algorithms (GEPA) that optimize their own investigation strategies across iterations. Static analysis integration, graph-based code exploration, and LLM-as-judge evaluation replacing keyword scoring. These systems don't just find bugs -- they get better at finding bugs each time they run.
+**Self-Improving Audit Pipelines** — GEPA (Genetic-Pareto) text evolution engines that optimize investigation strategies through a three-stage pipeline: execute candidates, reflect on failure traces with LLM analysis, and curate improved versions via Pareto-efficient search. Static analysis integration, graph-based code exploration, and LLM-as-judge evaluation. Systems that get better at finding bugs each time they run -- reflection over gradients, not brute-force numerical optimization.
 
 **Multi-Agent Architectures** — Production systems where a primary agent spawns parallel sub-agents for concurrent research, each returning structured findings that get synthesized into unified analysis. Claude Agent SDK, MCP servers, tool-use pipelines, and real-time WebSocket streaming. Agents that coordinate, not just respond.
 
